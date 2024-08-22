@@ -1,0 +1,107 @@
+/* body {
+ background-color: #2d2d2d;
+ overflow: hidden;
+ text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+svg {
+ width: 100%;
+ height: 100%;
+ visibility: hidden;
+ 
+}
+
+.defaultPath, #myPath {
+	fill: none;
+	stroke: #FFF;
+	stroke-width: 63;
+	stroke-linecap: round;
+	
+}
+
+.mainHeart {
+	cursor: pointer;
+	-webkit-tap-highlight-color:transparent;
+}
+
+#whiteHeart {
+	pointer-events: none;
+} */
+
+/* .transparent-bg {
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.03;
+    position: relative;
+  } */
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    max-height: 880px;
+    overflow: hidden;
+    background: #fcfcfc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .textContainer {
+    width: 25%;
+    padding: 20px;
+    color: #fff;
+    background: #111;
+    overflow-y: auto;
+    z-index: 10; /* Ensure the textContainer stays on top */
+    position: relative;
+  }
+  
+  .main {
+    width: 75%;
+    position: relative;
+  }
+  
+  .mainBoxes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mainClose {
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .photoBox {
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  h1,
+  p {
+    margin: 0 0 10px 0;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
